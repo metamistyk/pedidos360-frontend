@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; background: #f4f5f7; margin: 0; color: #1a1a1a; }
+.contenedor { max-width: 1000px; margin: 0 auto; padding: 20px; }
+.encabezado { background: #174a7e; color: #fff; padding: 16px 20px; border-radius: 8px; margin-bottom: 20px; }
+.encabezado h1 { margin: 0 0 10px; }
+.nav { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.nav a { color: #fff; text-decoration: none; padding: 6px 10px; border-radius: 5px; }
+.nav a.activo, .nav a:hover { background: rgba(255,255,255,.2); }
+.usuario { margin-left: auto; font-size: .9em; opacity: .9; }
+.tarjeta { background: #fff; border-radius: 8px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.tarjeta h2 { margin-top: 0; color: #174a7e; }
+button { background: #174a7e; color: #fff; border: none; padding: 8px 14px; border-radius: 5px; cursor: pointer; font-size: .95em; }
+button:hover { background: #123a63; }
+button.secundario { background: #888; }
+input, select { padding: 6px 8px; border: 1px solid #ccc; border-radius: 5px; margin: 3px; }
+.resumen { display: flex; gap: 20px; }
+.metrica { background: #f0f4f8; padding: 16px; border-radius: 8px; text-align: center; min-width: 120px; }
+.metrica h3 { margin: 0; font-size: 2em; color: #174a7e; }
+.metrica p { margin: 4px 0 0; color: #555; }
+.tabla { width: 100%; border-collapse: collapse; margin-top: 12px; }
+.tabla th, .tabla td { padding: 8px 10px; border-bottom: 1px solid #eee; text-align: left; }
+.tabla th { background: #f0f4f8; }
+.fila-item { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; }
+.crear-pedido, .crear-producto { background: #f9f9f9; padding: 14px; border-radius: 6px; margin-bottom: 16px; }
